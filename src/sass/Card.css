@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #1790BF;
+  box-shadow: 3px 3px 10px;
+  padding: 48px 12px 12px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.card_name {
+  background-color: #D91A4D;
+  text-align: center;
+  color: white;
+  width: 140px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6px 12px;
+}
+.card_circle {
+  background-color: #F2CB05;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 56px;
+  left: 24px;
+}
+.card_img {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}/*# sourceMappingURL=Card.css.map */

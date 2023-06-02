@@ -1,0 +1,16 @@
+@use './variables' as v;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman';    
+    background-color: v.$color3;
+}
+
+.card_name{
+    font-family: 'Arial'; 
+    font-size: 20px;  
+}

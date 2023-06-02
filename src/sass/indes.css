@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman";
+  background-color: #B6D936;
+}
+
+.card_name {
+  font-family: "Arial";
+  font-size: 20px;
+}/*# sourceMappingURL=indes.css.map */

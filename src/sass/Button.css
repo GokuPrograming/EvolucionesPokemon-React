@@ -1,0 +1,26 @@
+.button {
+  background-color: #D91A4D;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: yellow;
+  font-size: 36px;
+}
+.button_box {
+  /* border: 2px solid green;*/
+  position: relative;
+}
+.button_shadow {
+  width: 60px;
+  height: 60px;
+  background-color: #1790BF;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  z-index: -1;
+}
+.button:active {
+  transform: translateY(4px);
+}/*# sourceMappingURL=Button.css.map */

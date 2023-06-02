@@ -1,0 +1,36 @@
+@use 'variables' as v;
+
+.button {
+    background-color: v.$color1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: yellow;
+    font-size: 36px;
+
+    //configuracion de la caja del botton
+    &_box {
+        /* border: 2px solid green;*/
+        position: relative;
+    }
+
+    &_shadow {
+        width: 60px;
+        height: 60px;
+        background-color: v.$color2;
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+        z-index: -1;
+
+    }
+
+    &:active {
+        //efecto de movimiento
+        transform: translateY(4px);
+    }
+}
+
+button_box {}

@@ -1,0 +1,69 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.buttons-container {
+  /* border: 3px solid blue;*/
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  color: aqua;
+}
+
+.card-containeer {
+  border: 4px solid;
+  background: url("https://i.pinimg.com/originals/46/e2/72/46e272509ba457fad8d40b2f92e5fa6b.gif");
+  display: flex;
+  width: 550px;
+  height: 350px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.card-containeer .card:nth-child(1) {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  z-index: 5;
+  transform: rotate(-5deg) translateY(10px);
+  transition: 100ms;
+}
+.card-containeer .card:nth-child(1):hover {
+  transform: rotate(-5deg) translateY(0px);
+  zoom: 180%;
+}
+
+.card-containeer .card:nth-child(2) {
+  position: absolute;
+  left: 170px;
+  top: 40px;
+  z-index: 2;
+  transform: rotate(-5deg) translateY(10px);
+  transition: 100ms;
+}
+.card-containeer .card:nth-child(2):hover {
+  transition: 2s;
+  zoom: 140%;
+  transform: translateY(-10px);
+}
+
+.card-containeer .card:nth-child(3) {
+  position: absolute;
+  left: 320px;
+  top: 40px;
+  z-index: 1;
+  transform: rotate(5deg) translateY(10px);
+  transition: 100ms;
+}
+.card-containeer .card:nth-child(3):hover {
+  zoom: 130%;
+  transform: rotate(5deg) translateY(10px);
+  align-items: center;
+}
+
+.card1 {
+  transform: rotate(4deg) translate(70px);
+}/*# sourceMappingURL=App.css.map */
